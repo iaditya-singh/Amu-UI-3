@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: rgb(67, 67, 65);
+    padding: 20px;
+
+    .left-section {
+        width: 50%;
+        padding: 20px;
+        background-color: rgb(66, 92, 116);
+        background-image: url(./background\'.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        div:nth-child(1) {
+            display: flex;
+            justify-content: space-between;
+
+
+            h3 {
+                font-size: 30px;
+                font-family: "Wallpoet", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                color: white;
+
+            }
+
+            button {
+                background-color: rgba(143, 143, 143, 0.399);
+                color: white;
+                padding: 2px 8px;
+                font-size: 15px;
+                border: none;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                border-radius: 12px;
+            }
+        }
+
+        h1 {
+            width: 100%;
+            color: white;
+            font-weight: 300;
+            margin-bottom: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: column;
+
+        width: 50%;
+
+        margin-left: 5%;
+        background-color: #434341;
+        padding: 40px;
+
+
+        h2 {
+            color: white;
+            font-size: 55px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 300;
+        }
+
+        p {
+            color: rgb(213, 213, 213);
+            margin-top: 20px;
+            font-size: 14px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+            a {
+                color: rgb(255, 77, 255);
+                font-size: 15px;
+            }
+
+        }
+
+        .name {
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            input {
+                margin-top: 50px;
+                width: 50%;
+                height: 50px;
+                border: none;
+                border-radius: 8px;
+                background-color: rgba(232, 94, 232, 0.284);
+                padding: 10px;
+
+
+            }
+
+
+
+        }
+
+        input::placeholder {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.31);
+        }
+
+        .email {
+            margin-top: 20px;
+            width: 90%;
+            height: 50px;
+            border: none;
+            border-radius: 8px;
+            background-color: rgba(232, 94, 232, 0.284);
+            padding: 10px;
+        }
+
+        .password {
+            margin-top: 20px;
+            width: 90%;
+            height: 50px;
+            border: none;
+            border-radius: 8px;
+            background-color: rgba(232, 94, 232, 0.284);
+            padding: 10px;
+        }
+
+        .termsandconditions {
+            margin-top: 20px;
+            color: rgb(213, 213, 213);
+
+            a {
+                color: p;
+            }
+
+
+        }
+
+        .createaccount {
+            margin-top: 40px;
+            width: 90%;
+            height: 50px;
+            border: none;
+            color: white;
+            border-radius: 8px;
+            background-color: rgb(159, 23, 197);
+            padding: 10px;
+            font-size: 16px;
+        }
+
+
+
+
+
+        .register {
+            text-align: center;
+            width: 90%;
+            margin-top: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            margin-top: 40px;
+
+            .btn {
+                display: flex;
+                height: 50px;
+                padding: 0 80px;
+                width: 48%;
+                align-items: center;
+                border-radius: 8px;
+                background-color: transparent;
+                border: 1px solid white;
+
+
+                img {
+                    width: 30px;
+                }
+
+                p {
+                    font-size: 16px;
+                    text-align: center;
+                    padding-left: 10px;
+                    padding-bottom: 20px;
+                }
+
+            }
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}
